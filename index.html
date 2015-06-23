@@ -1,1 +1,173 @@
+<!DOCTYPE html PUBLIC>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<meta name=”format-detection” content=”telephone=yes” />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<meta name="apple-mobile-web-app-capable" content="no" />
 
+<!-- 启用360浏览器的极速模式(webkit) -->
+<meta name="renderer" content="webkit">
+<!-- 避免IE使用兼容模式 -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- 针对手持设备优化，主要是针对一些老的不识别viewport的浏览器，比如黑莓 -->
+<meta name="HandheldFriendly" content="true">
+<!-- 微软的老式浏览器 -->
+<meta name="MobileOptimized" content="320">
+<!-- uc强制竖屏 -->
+<meta name="screen-orientation" content="portrait">
+<!-- QQ强制竖屏 -->
+<meta name="x5-orientation" content="portrait">
+<!-- UC强制全屏 -->
+<meta name="full-screen" content="yes">
+<!-- QQ强制全屏 -->
+<meta name="x5-fullscreen" content="true">
+<!-- UC应用模式 -->
+<meta name="browsermode" content="application">
+<!-- QQ应用模式 -->
+<meta name="x5-page-mode" content="app">
+<!-- windows phone 点击无高光 -->
+<meta name="msapplication-tap-highlight" content="no">
+<link rel="stylesheet" type="text/css" href="lib/bootstrap-3.3.4-dist/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="lib/bootstrap-3.3.4-dist/css/bootstrap-theme.min.css">
+<link rel="stylesheet" type="text/css" href="css/bd-style.css">
+<link rel="stylesheet" type="text/css" href="css/layout.css">
+</head>
+
+<body>
+<div class="container bg-shopcart bd-index">
+<div class="row">	
+<!--head-->
+<nav class="bd-nav">
+	<span>布丁特选</span>
+</nav>
+<!--scroll-->
+<div class="scroll relative">
+	<div class="scroll_box" id="scroll_img">
+		<ul class="scroll_wrap">
+			<li><a href="#"><img src="images/ind-img_02.jpg" width="100%" /></a></li>
+			<li><a href="#"><img src="images/ind-img_02.jpg" width="100%" /></a></li>
+			<li><a href="#"><img src="images/ind-img_02.jpg" width="100%" /></a></li>
+		</ul>
+	</div>
+	<!-- <span class="scroll_position_bg opacity6"></span> -->
+	<ul class="scroll_position" id='scroll_position'>
+		<li class="on"><a href="javascript:void(0);">1</a></li>
+		<li><a href="javascript:void(0);">2</a></li>
+		<li><a href="javascript:void(0);">3</a></li>
+	</ul>
+</div>
+<!--scroll-->
+<!-- 
+
+<div class="banner">
+    <ul>
+        <li><a><img src="images/ind-img_02.jpg"></a></li>
+        <li><a><img src="images/ind-img_02.jpg"></a></li>
+        <li><a><img src="images/ind-img_02.jpg"></a></li>
+    </ul>
+</div> -->
+<div class="bd-content">
+	<div class="bd-content-left">
+		<div class="bd-contLF-1">
+			<img src="images/ind-img_05.jpg">
+			<a href="html/choseCity.html">
+				<img src="images/ind-icon_03.png" />
+				<span>起居<br/>必备</span>
+			</a>
+		</div>
+		<div class=" clear bd-height"></div>
+		<div class="bd-contLF-2">
+			<img src="images/ind-img_10.jpg">
+			<a>
+				<img src="images/ind-icon_11.png" />
+				<p>美食优品</p>
+			</a>
+		</div>
+		<div class="bd-contLF-2 fr">
+			<img src="images/ind-img_12.jpg">
+			<a>
+				<img src="images/ind-icon_13.png" />
+				<p>数码生活</p>
+			</a>
+		</div>
+	</div>
+	<div class="bd-content-right">
+		<div class="bd-contLF-3">
+			<img src="images/ind-img_07.jpg">
+			<a>
+				<img src="images/ind-icon_06.png" />
+				<p>产品<br>精选</p>
+			</a>
+		</div>
+	</div>
+	<div class="clear"></div>
+	<div class="bd-com">
+		<p class="bd-line"></p>
+		<span>布丁推荐</span>
+	</div>
+	<!--other-->
+	<div class="row bg-good-other-li">
+		<div class="col-xs-4 bg-position">
+			<img src="images/bd-goods-img_03.png">
+			<span class="bg-good-other-price">￥999.99</span>
+			<div class="bg-good-other-bottom">
+				<div class="bg-good-other-bg"></div>
+				<span class="bg-good-other-name">商品名称</span>
+			</div>
+		</div>
+		<div class="col-xs-4 bg-position">
+			<img src="images/bd-goods-img_03.png">
+			<span class="bg-good-other-price">￥999.99</span>
+			<div class="bg-good-other-bottom">
+				<div class="bg-good-other-bg"></div>
+				<span class="bg-good-other-name">商品名称</span>
+			</div>
+		</div>
+		<div class="col-xs-4 bg-position">
+			<img src="images/bd-goods-img_03.png">
+			<span class="bg-good-other-price">￥999.99</span>
+			<div class="bg-good-other-bottom">
+				<div class="bg-good-other-bg"></div>
+				<span class="bg-good-other-name">商品名称</span>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+
+<!--footer-->
+<footer class="bg-footer">
+	<ul>
+		<li><a href="index.html"><img src="images/footer-icon-02.jpg"></a></li>
+		<li><a href="html/shopcart.html"><img src="images/footer-icon_11.jpg"></a></li>
+		<li><a href="html/person.html"><img src="images/footer-icon-01.jpg"></a></li>
+	</ul>
+</footer>
+</div>
+<script type="text/javascript" src="script/jquery-latest.min.js"></script>
+<script type="text/javascript" src="script/underscore-min.js"></script>
+<script type="text/javascript" src="script/wapper.js"></script>
+<script type="text/javascript" src="script/hhSwipe.js"></script>
+<script>
+var slider = Swipe(document.getElementById('scroll_img'), {
+	auto: 3000,
+	continuous: true,
+	callback: function(pos) {
+		var i = bullets.length;
+		while (i--) {
+			bullets[i].className = ' ';
+		}
+		bullets[pos].className = 'on';
+	}
+});
+var bullets = document.getElementById('scroll_position').getElementsByTagName('li');
+$(function(){
+	$('.scroll_position_bg').css({
+		width:$('#scroll_position').width()
+	});
+});
+</script>
+</body>
+</html>
